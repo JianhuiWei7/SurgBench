@@ -23,5 +23,7 @@ Other .py files serve as utils python file.
 # Data
 
 SurgBench-E: this folder conatins the video clips for pretraining
+
 SurgBench-P: this folder contains the video clips for fine-tuning
+
 We provide some examples in the folder above. For full video access, please refer to https://huggingface.co/datasets/JianhuiWei/SurgBench_NIPS25
