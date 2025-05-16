@@ -1,0 +1,82 @@
+1. Surgical Phase Classification
+1.1 Hysterectomy - AutoLaparo
+"AutoLaparo/surgical_phase/preparation": [0, 72]
+"AutoLaparo/surgical_phase/dividing_ligament_and_peritoneum": [1, 73]
+"AutoLaparo/surgical_phase/dividing_uterine_vessels_and_ligament": [2, 74]
+"AutoLaparo/surgical_phase/transecting_the_vagina": [3, 75]
+"AutoLaparo/surgical_phase/specimen_removal": [4, 76]
+"AutoLaparo/surgical_phase/suturing": [5, 77]
+"AutoLaparo/surgical_phase/washing": [6, 78]
+1.2 Right Hemicolectomy - zju_phase_classification
+"zju_phase_classification/phase_classification/1_establishment_of_abdominal_surgical_environment": [66, 138]
+"zju_phase_classification/phase_classification/2_dissection_of_the_posterior_peritoneal_space_of_the_right_colon_and_the_right_hemi-colon": [67, 139]
+"zju_phase_classification/phase_classification/3__identification_and_ligation_of_the_vessels_on_the_mesentery": [68, 140]
+"zju_phase_classification/phase_classification/4_dissection_of_the_posterior_peritoneal_space_of_the_transverse_colon_and_the_henle's_trunk": [69, 141]
+"zju_phase_classification/phase_classification/5_opening_of_the_gastrocolic_ligament_and_identification_of_the_mesenteric_interspace_(ims)": [70, 142]
+"zju_phase_classification/phase_classification/6_specimen_removal_and_gastrointestinal_reconstruction_(intra-abdominal_and_extra-abdominal_anastomosis)": [71, 143]
+1.3 Laparoscopic Cholecystectomy
+endovis2019
+"endovis2019/phase_classification/preparation": [28, 100]
+"endovis2019/phase_classification/calot_triangle_dissection": [29, 101]
+"endovis2019/phase_classification/clipping_and_cutting": [30, 102]
+"endovis2019/phase_classification/galbladder_dissection": [31, 103]
+"endovis2019/phase_classification/galbladder_packaging": [32, 104]
+"endovis2019/phase_classification/cleaning_and_coagulation": [33, 105]
+"endovis2019/phase_classification/galbladder_retraction": [34, 106]
+CholecT50
+"CholecT50/phase_classification/preparation": [20, 92]
+"CholecT50/phase_classification/carlot-triangle-dissection": [21, 93]
+"CholecT50/phase_classification/gallbladder-dissection": [22, 94]
+"CholecT50/phase_classification/cleaning-and-coagulation": [23, 95]
+"CholecT50/phase_classification/gallbladder-extraction": [24, 96]
+2. Camera Motion - AutoLaparo
+"AutoLaparo/motion_prediction/static": [7, 79]
+"AutoLaparo/motion_prediction/up": [8, 80]
+"AutoLaparo/motion_prediction/down": [9, 81]
+"AutoLaparo/motion_prediction/left": [10, 82]
+"AutoLaparo/motion_prediction/right": [11, 83]
+"AutoLaparo/motion_prediction/zoom-in": [12, 84]
+"AutoLaparo/motion_prediction/zoom-out": [13, 85]
+3. Tool Recognition - CholecT50
+"CholecT50/instrument_classification/grasper": [14, 86]
+"CholecT50/instrument_classification/hook": [15, 87]
+4. Disease Diagnosis
+4.1 Gastrointestinal Lesion Diagnosis
+Colonoscopic-web
+"Colonoscopic-web/disease_classification/adenoma": [25, 97]
+"Colonoscopic-web/disease_classification/hyperplasic": [26, 98]
+"Colonoscopic-web/disease_classification/serrated": [27, 99]
+Hyper-Kvasir
+"Hyper-Kvasir/disease_classification/home": [35, 36, 37, 38, 39, 40, 41, 42, 43, 107, 108, 109, 110, 111, 112, 113, 114, 115]
+Kvasir-capsul
+"Kvasir-capsul/disease_classification/ileocecal_valve": [57, 129]
+"Kvasir-capsul/disease_classification/blood-fresh": [58, 130]
+"Kvasir-capsul/disease_classification/foreign-body": [59, 131]
+"Kvasir-capsul/disease_classification/lymphangiectasia": [60, 132]
+"Kvasir-capsul/disease_classification/normal-clean-mucosa": [61, 133]
+"Kvasir-capsul/disease_classification/pylorus": [62, 134]
+"Kvasir-capsul/disease_classification/reduced-mucosal-view": [63, 135]
+4.2 Colon Polyp Detection - LDPolyVideo
+"LDPolyVideo/polyp_detection/clips_without_polyps": [64, 136]
+"LDPolyVideo/polyp_detection/clips_with_polyps": [65, 137]
+5. Action Recognition
+5.1 Endoscopic Surgery Actions - CholecT50
+"CholecT50/verb_classification/retract": [16, 88]
+"CholecT50/verb_classification/dissect": [17, 89]
+5.2 Robotic Teaching Surgery Actions - JIGSAWS
+"JIGSAWS/gesture_classification/reaching_for_needle_with_right_hand": [44, 116]
+"JIGSAWS/gesture_classification/positioning_needle": [45, 117]
+"JIGSAWS/gesture_classification/pushing_needle_through_tissue": [46, 118]
+"JIGSAWS/gesture_classification/transferring_needle_from_left_to_right": [47, 119]
+"JIGSAWS/gesture_classification/moving_to_center_with_needle_in_grip": [48, 120]
+"JIGSAWS/gesture_classification/pulling_suture_with_left_hand": [49, 121]
+"JIGSAWS/gesture_classification/orienting_needle": [50, 122]
+"JIGSAWS/gesture_classification/using_right_hand_to_help_tighten_suture": [51, 123]
+"JIGSAWS/gesture_classification/dropping_suture_at_end_and_moving_to_end_points": [52, 124]
+"JIGSAWS/gesture_classification/reaching_for_needle_with_left_hand": [53, 125]
+"JIGSAWS/gesture_classification/making_c_loop_around_right_hand": [54, 126]
+"JIGSAWS/gesture_classification/reaching_for_suture_with_right_hand": [55, 127]
+"JIGSAWS/gesture_classification/pulling_suture_with_both_hands": [56, 128]
+6. Organ Detection - CholecT50
+"CholecT50/target_classification/gallbladder": [18, 90]
+"CholecT50/target_classification/liver": [19, 91]
